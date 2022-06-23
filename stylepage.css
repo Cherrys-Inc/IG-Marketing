@@ -432,7 +432,8 @@ color: #7B9292;
 
 .happyrow{
     background-image: url(quotes.png);
-    background-position-x: 200px;
+    background-position-x: 180px;
+    background-position-y: 180px;
     flex-direction: column;
     background-repeat: no-repeat;
     
@@ -610,11 +611,13 @@ color: #9C988F;
     justify-content: flex-start;
     margin-left: 40px;
 }
+ 
 .happyrow{
     margin-left: 1rem;
     margin-right:1rem;
     padding-left: 1rem;
         padding-right: 1rem;
+    
 }
 .iconrow{
     justify-content: left;
@@ -730,7 +733,9 @@ color: #9C988F;
         flex:0 0 0%;
     max-width: 0%;
 }
-    
+    .happyrow{
+        background-image:none;
+    }
    
     .simg4{
         width:40vw;
